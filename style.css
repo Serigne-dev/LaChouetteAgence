@@ -561,7 +561,8 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: auto;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -947,7 +948,8 @@ li{
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: auto;
+        width: 100%;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1008,8 +1010,8 @@ li{
         height: 425px;
     }
     .blocsapp-device-iphone5 img {
-        width: 180px;
-        height: 320px;
+        height: auto;
+        width: 100%;
     }
 }
 
